@@ -2,8 +2,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Supermercado One', cursive;
+
+  background-color: rgb(27, 27, 27);
+  color: rgb(3, 224, 195);
+
 }
 
 a {
@@ -13,4 +16,38 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 52.3012px;
+  line-height: 72px;
+  padding-top: 52px;
+  padding-bottom: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+label {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 72px;
+  padding-top: 22px;
+  padding-right: 800px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: rgb(155, 155, 155);
+  text-align: center;
 }
